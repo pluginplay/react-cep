@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the proper HTML structure 1`] = `
+<div
+  className="flex-bfOkaE fdXOYB"
+>
+  <div
+    className="sc-bdVaJa dDyNSC"
+  >
+    <div
+      className="sc-bwzfXH hcbpUg"
+    />
+  </div>
+  <span>
+    loading stuff
+  </span>
+</div>
+`;

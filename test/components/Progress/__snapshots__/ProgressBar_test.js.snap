@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa dDyNSC"
+>
+  <div
+    className="sc-bwzfXH hcbpUg"
+  />
+</div>
+`;
+
+exports[`renders correctly when complete 1`] = `
+<div
+  className="sc-bdVaJa dDyNSC"
+>
+  <div
+    className="sc-bwzfXH hsnZWV"
+  />
+</div>
+`;
