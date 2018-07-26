@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<label
+  className="sc-bdVaJa jipGKx"
+>
+  <span
+    className="label"
+  >
+    Look ima label
+  </span>
+  <span
+    className="input"
+  >
+    <span>
+      foo
+    </span>
+  </span>
+</label>
+`;

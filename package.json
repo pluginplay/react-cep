@@ -30,6 +30,7 @@
     "react-test-renderer": "^16.4.1"
   },
   "dependencies": {
+    "lodash": "^4.17.10",
     "mobx": "^5.0.3",
     "mobx-react": "^5.2.3",
     "mobx-stored": "^1.0.2",

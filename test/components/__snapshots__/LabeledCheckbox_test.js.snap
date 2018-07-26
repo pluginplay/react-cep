@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<label
+  className="sc-bwzfXH iPQAKy"
+>
+  <div
+    className="sc-bdVaJa cNLavf"
+  >
+    <input
+      checked={false}
+      label="Check me baby"
+      type="checkbox"
+    />
+    <span />
+  </div>
+  <span>
+    Check me baby
+  </span>
+</label>
+`;
