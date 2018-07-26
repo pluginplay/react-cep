@@ -1,16 +1,15 @@
 import React from 'react'
 import { observer } from 'mobx-react'
-import { SystemState } from '../../lib'
+import SystemState from '../models/SystemState'
 import PropTypes from 'prop-types'
-import Overlay from '../Overlay'
-import OverlayContent from '../OverlayContent'
-import ColorHeader from '../ColorHeader'
-import MonospaceContent from '../../MonospaceContent'
+import Overlay from './Overlay'
+import OverlayContent from './OverlayContent'
+import ColorHeader from './ColorHeader'
+import MonospaceContent from './MonospaceContent'
 import styled from 'styled-components'
 
 @observer
 class ErrorOverlay extends React.Component {
-
   constructor (props) {
     super(props)
     this._onCloseClickedBound = this.onCloseClicked.bind(this)
@@ -44,21 +43,21 @@ class ErrorOverlay extends React.Component {
   render () {
     return (
       <Overlay visible={this.props.systemState.showErrorOverlay} column full className={this.props.className}>
-        <ColorHeader color="red">
+        <ColorHeader color={'red'}>
           <span>Oh dear, an error!</span>
-          <a href="#" onClick={this._onCloseClickedBound}>Close</a>
+          <a href={'#'} onClick={this._onCloseClickedBound}>Close</a>
         </ColorHeader>
         <OverlayContent full column>
-          <p>Looks like we've run into a problem. You could help the developers out and <a
-            href="#" className="send-button" onClick={this._onReportClickedBound}>send the error report.</a>
-            <br /><a href="#" onClick={this._onWhatMeanClickedBound}>What does this mean?</a>
+          <p>
+            Looks like we've run into a problem. You could help the developers out and <a
+              href={'#'} className={'send-button'} onClick={this._onReportClickedBound}>send the error report.</a>
+            <br /><a href={'#'} onClick={this._onWhatMeanClickedBound}>What does this mean?</a>
           </p>
           <MonospaceContent grow={1}>{this.props.systemState.errorMessage}</MonospaceContent>
         </OverlayContent>
       </Overlay>
     )
   }
-
 }
 
 ErrorOverlay.propTypes = {

@@ -1,10 +1,10 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { expect, withTheme } from '../../setup'
-import ProgressOverlay from '../../../src/components/Overlay/ProgressOverlay'
-import Overlay from '../../../src/components/Overlay/Overlay'
-import ProgressBar from '../../../src/components/Progress/ProgressBar'
-import { SystemState } from '../../../src/components/lib'
+import { expect, withTheme } from '../setup'
+import ProgressOverlay from '../../src/components/ProgressOverlay'
+import Overlay from '../../src/components/Overlay'
+import ProgressBar from '../../src/components/ProgressBar'
+import SystemState from '../../src/models/SystemState'
 import renderer from 'react-test-renderer'
 
 let systemState = null

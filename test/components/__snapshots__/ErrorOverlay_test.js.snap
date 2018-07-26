@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the proper HTML structure 1`] = `
+<div
+  className="sc-bwzfXH kUVRIM flex-bfOkaE bINiYi"
+>
+  <div
+    className="flex-hWOzxa WtegK"
+    color="red"
+  >
+    <span>
+      Oh dear, an error!
+    </span>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Close
+    </a>
+  </div>
+  <div
+    className="flex-hMftNG jwpRxe"
+  >
+    <p>
+      Looks like we've run into a problem. You could help the developers out and 
+      <a
+        className="send-button"
+        href="#"
+        onClick={[Function]}
+      >
+        send the error report.
+      </a>
+      <br />
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        What does this mean?
+      </a>
+    </p>
+    <div
+      className="sc-bdVaJa hcHUEK item-bUAMdM bMtFws"
+      onClick={[Function]}
+    >
+      foobar
+    </div>
+  </div>
+</div>
+`;

@@ -1,13 +1,12 @@
 import React from 'react'
-import { SystemState } from '../../lib'
-import ProgressBar from '../../Progress/ProgressBar'
+import SystemState from '../models/SystemState'
+import ProgressBar from './ProgressBar'
 import { observer } from 'mobx-react'
 import PropTypes from 'prop-types'
-import Overlay from '../Overlay'
+import Overlay from './Overlay'
 
 @observer
 class ProgressOverlay extends React.Component {
-
   render () {
     const visible = this.props.systemState.showProgress
     let label = this.props.systemState.progressLabel
@@ -22,7 +21,6 @@ class ProgressOverlay extends React.Component {
       </Overlay>
     )
   }
-
 }
 
 ProgressOverlay.propTypes = {

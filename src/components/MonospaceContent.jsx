@@ -3,7 +3,6 @@ import { FlexItem } from 'styled-flex-component'
 import styled from 'styled-components'
 
 class MonospaceContent extends React.Component {
-
   onClick (e) {
     e.preventDefault()
     const range = document.createRange()
@@ -20,7 +19,6 @@ class MonospaceContent extends React.Component {
       </FlexItem>
     )
   }
-
 }
 
 export default styled(MonospaceContent)`

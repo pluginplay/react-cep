@@ -1,10 +1,9 @@
 import React from 'react'
-import ProgressContainer from '../ProgressContainer'
-import ProgressInner from '../ProgressInner'
+import ProgressContainer from './ProgressContainer'
+import ProgressInner from './ProgressInner'
 import PropTypes from 'prop-types'
 
 class ProgressBar extends React.Component {
-
   render () {
     return (
       <ProgressContainer>
@@ -12,7 +11,6 @@ class ProgressBar extends React.Component {
       </ProgressContainer>
     )
   }
-
 }
 
 ProgressBar.propTypes = {

@@ -1,13 +1,13 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { expect, withTheme } from '../../setup'
-import { getDefaultTheme } from '../../../src/lib/theme'
+import { expect, withTheme } from '../setup'
+import { getDefaultTheme } from '../../src/lib/theme'
 import renderer from 'react-test-renderer'
-import { SystemState } from '../../../src/components/lib'
-import ErrorOverlay from '../../../src/components/Overlay/ErrorOverlay'
+import SystemState from '../../src/models/SystemState'
+import ErrorOverlay from '../../src/components/ErrorOverlay'
 
-import Overlay from '../../../src/components/Overlay/Overlay'
-import MonospaceContent from '../../../src/components/MonospaceContent'
+import Overlay from '../../src/components/Overlay'
+import MonospaceContent from '../../src/components/MonospaceContent'
 
 let systemState = null
 let showConfirmationSpy = null

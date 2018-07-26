@@ -1,7 +1,7 @@
 import React from 'react'
-import ProgressBar from '../../../src/components/Progress/ProgressBar'
+import ProgressBar from '../../src/components/ProgressBar'
 import renderer from 'react-test-renderer'
-import { withTheme } from '../../setup'
+import { withTheme } from '../setup'
 
 it('renders correctly', () => {
   const tree = renderer

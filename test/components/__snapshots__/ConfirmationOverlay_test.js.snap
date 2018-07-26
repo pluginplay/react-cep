@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the proper HTML structure 1`] = `
+<div
+  className="flex-bfOkaE fdXOYB"
+>
+  <div
+    className="flex-hMftNG iHsMmk"
+  >
+    <div>
+      Hello world?
+    </div>
+    <button
+      className="sc-bdVaJa jOdvgS"
+      onClick={[Function]}
+    >
+      OK
+    </button>
+  </div>
+</div>
+`;
