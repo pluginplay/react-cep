@@ -38,11 +38,11 @@ class TabContainer extends React.Component {
   render () {
     return (
       <Flex full className={this.props.className}>
-        <div className="content">
+        <div className={'content'}>
           {this.renderContent()}
         </div>
         <TabNavigation tabs={this.props.tabs} selectedTab={this.state.selectedTab}
-                       onTabSelected={this._onTabSelectedBound} />
+          onTabSelected={this._onTabSelectedBound} />
       </Flex>
     )
   }
