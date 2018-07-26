@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa cxWwFF"
+>
+  <div
+    className="rc-slider"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onTouchStart={[Function]}
+    style={undefined}
+  >
+    <div
+      className="rc-slider-rail"
+      style={Object {}}
+    />
+    <div
+      className="rc-slider-track"
+      style={
+        Object {
+          "left": "0%",
+          "width": "10%",
+        }
+      }
+    />
+    <div
+      className="rc-slider-step"
+    />
+    <div
+      aria-disabled={false}
+      aria-valuemax={100}
+      aria-valuemin={0}
+      aria-valuenow={10}
+      className="rc-slider-handle"
+      role="slider"
+      style={
+        Object {
+          "left": "10%",
+        }
+      }
+      tabIndex={0}
+    />
+    <div
+      className="rc-slider-mark"
+    />
+  </div>
+</div>
+`;

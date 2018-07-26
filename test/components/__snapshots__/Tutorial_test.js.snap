@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bxivhb gQPIyo flex-citwDR kIvBHb"
+>
+  <div
+    className="side image-side"
+  >
+    <div
+      className="image-container flex-citwDR kESLST"
+    >
+      <img
+        src="foo"
+      />
+    </div>
+  </div>
+  <div
+    className="side copy-side"
+  >
+    <div
+      className="flex-citwDR iycZHW"
+    >
+      <h2>
+        Step 1
+      </h2>
+      <p>
+        Step 1
+      </p>
+      <div
+        className="flex-citwDR jWntXV"
+      >
+        <button
+          className="next-button sc-bwzfXH kfPdOC sc-bdVaJa jOdvgS"
+          onClick={[Function]}
+        >
+          <div
+            className="flex-citwDR bmCxDQ"
+          >
+            <span>
+              Step 1 Next
+            </span>
+            <img
+              alt="Next"
+              src="test-file-stub"
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

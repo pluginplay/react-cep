@@ -5,8 +5,6 @@ More information coming soon!
 ## Components to Create
 
 - [ ] Tutorial
-- [ ] NextButton
-- [ ] PreviousButton
 - [ ] SystemContainer
 
 ## Support to Add

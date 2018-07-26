@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<button
+  className="sc-bwzfXH gmaLfj sc-bdVaJa jOdvgS"
+  onClick={[Function]}
+>
+  <div
+    className="flex-citwDR bmCxDQ"
+  >
+    <img
+      alt="Back"
+      src="test-file-stub"
+    />
+    <span>
+      Back
+    </span>
+  </div>
+</button>
+`;
