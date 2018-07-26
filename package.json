@@ -36,6 +36,7 @@
     "mobx-stored": "^1.0.2",
     "polished": "^1.9.3",
     "prop-types": "^15.6.2",
+    "rc-slider": "^8.6.1",
     "react": "^16.4.1",
     "react-select": "^2.0.0",
     "styled-components": "^3.3.3",

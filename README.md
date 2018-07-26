@@ -4,11 +4,6 @@ More information coming soon!
 
 ## Components to Create
 
-- [ ] Checkbox
-- [ ] LabeledCheckbox
-- [ ] LabeledInput
-- [ ] Slider
-- [ ] SuffixInput
 - [ ] Tutorial
 - [ ] NextButton
 - [ ] PreviousButton
