@@ -4,19 +4,19 @@ More information coming soon!
 
 ## Components to Create
 
-- [ ] ConfirmationOverlay
+- [x] ConfirmationOverlay
 - [ ] SystemContainer
 - [ ] TabContainer
 - [ ] TabNavigation
 - [ ] TabNavigationButton
-- [ ] Button
+- [x] Button
 - [ ] Checkbox
-- [ ] Input
+- [x] Input
 - [ ] LabeledCheckbox
 - [ ] LabeledInput
-- [ ] Select
+- [x] Select
 - [ ] Slider
-- [ ] SubInput
+- [x] SubInput
 - [ ] SuffixInput
 - [ ] Tutorial
 - [ ] NextButton
