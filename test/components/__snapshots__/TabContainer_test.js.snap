@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-htpNat eUUrvg flex-citwDR eWuqiZ"
+>
+  <div
+    className="content"
+  >
+    <div>
+      Tab A
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH cYfKZY"
+  >
+    <button
+      className="sc-bdVaJa eazgxO"
+      onClick={[Function]}
+    >
+      <img
+        alt="Tab 1"
+        src="icons/one.svg"
+      />
+    </button>
+    <button
+      className="sc-bdVaJa gPiPUB"
+      onClick={[Function]}
+    >
+      <img
+        alt="Tab 2"
+        src="icons/two.svg"
+      />
+    </button>
+    <button
+      className="sc-bdVaJa gPiPUB"
+      onClick={[Function]}
+    >
+      <img
+        alt="Tab 3"
+        src="icons/three.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
