@@ -4,7 +4,6 @@ More information coming soon!
 
 ## Components to Create
 
-- [ ] Tutorial
 - [ ] SystemContainer
 
 ## Support to Add
