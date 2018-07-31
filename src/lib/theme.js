@@ -1,4 +1,4 @@
-import { csInterface } from 'cep-lib'
+import * as csInterface from 'cep-lib/csinterface'
 import { lighten, darken } from 'polished'
 
 export const getDefaultTheme = () => {

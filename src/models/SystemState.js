@@ -13,6 +13,7 @@ export default class SystemState {
   @observable confirmationMessage = null
   @observable confirmationCallback = null
   @observable showConfirmationOverlay = false
+  @observable debugModeEnabled = false
 
   @action setProgress (progress, label, showProgress = true) {
     this.showProgressComplete = false
