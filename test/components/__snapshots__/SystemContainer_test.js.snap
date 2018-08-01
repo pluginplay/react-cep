@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders properly 1`] = `
+<div
+  className="sc-bdVaJa krZJab"
+  id="panel"
+>
+  <div
+    className="flex-bfOkaE hkmsqT"
+  >
+    <div
+      className="flex-hWOzxa dhjizw"
+      color="blue"
+    >
+      <span>
+        Debug Information
+      </span>
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Close
+      </a>
+    </div>
+    <div
+      className="flex-hMftNG jwpRxe"
+    >
+      <p>
+        Here is the debug information you asked for. Please send this to the plugin maintainers if they ask for it.
+      </p>
+      <div
+        className="sc-bxivhb vlxVE item-bUAMdM bMtFws"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="sc-ifAKCX GwhuV flex-bfOkaE hkmsqT"
+  >
+    <div
+      className="flex-hWOzxa WtegK"
+      color="red"
+    >
+      <span>
+        Oh dear, an error!
+      </span>
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Close
+      </a>
+    </div>
+    <div
+      className="flex-hMftNG jwpRxe"
+    >
+      <p>
+        Looks like we've run into a problem. You could help the developers out and 
+        <a
+          className="send-button"
+          href="#"
+          onClick={[Function]}
+        >
+          send the error report.
+        </a>
+        <br />
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          What does this mean?
+        </a>
+      </p>
+      <div
+        className="sc-bxivhb vlxVE item-bUAMdM bMtFws"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="flex-bfOkaE iFImsY"
+  >
+    <div
+      className="sc-bwzfXH epCbel"
+    >
+      <div
+        className="sc-htpNat gfOafB"
+      />
+    </div>
+    <span>
+      Loading
+    </span>
+  </div>
+  <div
+    className="flex-bfOkaE iFImsY"
+  >
+    <div
+      className="flex-hMftNG iHsMmk"
+    >
+      <div />
+      <button
+        className="sc-EHOje kKMNsC"
+        onClick={[Function]}
+      >
+        OK
+      </button>
+    </div>
+  </div>
+  <div
+    className="flex-citwDR dRlZol"
+  >
+    <p>
+      foobar
+    </p>
+  </div>
+</div>
+`;
