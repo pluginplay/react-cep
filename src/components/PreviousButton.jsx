@@ -3,7 +3,7 @@ import Button from './Button'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import Flex from 'styled-flex-component'
-import arrowLeft from '../assets/icons/arrow-left.svg'
+import arrowLeft from '../../assets/icons/arrow-left.svg'
 
 class PreviousButton extends React.Component {
   render () {

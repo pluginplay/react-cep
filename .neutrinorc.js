@@ -4,7 +4,16 @@ module.exports = {
   },
   use: [
     '@neutrinojs/standardjs',
-    '@neutrinojs/react-components',
+    ['@neutrinojs/react-components', {
+      minify: {
+        babel: {
+          minify: {
+            keepClassName: true,
+            keepFnName: true
+          }
+        }
+      }
+    }],
     (neutrino) => {
       neutrino.config.module.rule('compile').use('babel').tap(options => {
         const decoratorsPlugin = require.resolve('babel-plugin-transform-decorators-legacy')
