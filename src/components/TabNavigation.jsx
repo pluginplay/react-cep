@@ -33,11 +33,10 @@ class TabNavigation extends React.Component {
   render () {
     const tabButtons = this.props.tabs.map((tab) => {
       const isSelected = this.props.selectedTab === tab.identifier
-      const image = `icons/${tab.icon}.svg`
       return (
         <TabNavigationButton key={tab.identifier} isSelected={isSelected}
           onClick={this.state.tabClickEvents[tab.identifier]}>
-          <img src={image} alt={tab.title} />
+          <img src={tab.icon} alt={tab.title} />
         </TabNavigationButton>
       )
     })

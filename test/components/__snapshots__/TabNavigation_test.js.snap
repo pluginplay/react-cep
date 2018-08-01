@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
   >
     <img
       alt="Tab 1"
-      src="icons/one.svg"
+      src="one"
     />
   </button>
   <button
@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
   >
     <img
       alt="Tab 2"
-      src="icons/two.svg"
+      src="two"
     />
   </button>
   <button
@@ -28,7 +28,7 @@ exports[`renders correctly 1`] = `
   >
     <img
       alt="Tab 3"
-      src="icons/three.svg"
+      src="three"
     />
   </button>
 </div>

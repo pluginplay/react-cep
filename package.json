@@ -9,6 +9,9 @@
     "lint": "neutrino lint",
     "test": "neutrino test"
   },
+  "files": [
+    "assets/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
