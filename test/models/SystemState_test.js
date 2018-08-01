@@ -1,5 +1,5 @@
 import { expect } from '../setup'
-import SystemState from '../../src/models/SystemState'
+import SystemState from '../../src/components/SystemState'
 
 let systemState = null
 beforeEach(() => {

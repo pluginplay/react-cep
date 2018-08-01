@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import { expect, withTheme } from '../setup'
 import renderer from 'react-test-renderer'
-import SystemState from '../../src/models/SystemState'
+import SystemState from '../../src/components/SystemState'
 import ConfirmationOverlay from '../../src/components/ConfirmationOverlay'
 
 import Overlay from '../../src/components/Overlay'

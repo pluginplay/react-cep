@@ -4,7 +4,7 @@ import { expect, withTheme } from '../setup'
 import ProgressOverlay from '../../src/components/ProgressOverlay'
 import Overlay from '../../src/components/Overlay'
 import ProgressBar from '../../src/components/ProgressBar'
-import SystemState from '../../src/models/SystemState'
+import SystemState from '../../src/components/SystemState'
 import renderer from 'react-test-renderer'
 
 let systemState = null

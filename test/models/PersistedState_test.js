@@ -1,5 +1,5 @@
 import { expect } from '../setup'
-import PersistedState from '../../src/models/PersistedState'
+import PersistedState from '../../src/components/PersistedState'
 
 it('creates a persisted state', () => {
   const persistedState = new PersistedState()

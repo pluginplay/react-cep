@@ -1,6 +1,6 @@
 import { localStored } from 'mobx-stored'
 
-class PersistedState {
+export default class PersistedState {
   static _defaultLocalState = {
     configurationVersion: 0
   }
@@ -27,5 +27,3 @@ class PersistedState {
     return this._persistedState
   }
 }
-
-export default PersistedState

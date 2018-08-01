@@ -1,6 +1,5 @@
 import React from 'react'
 import { observer } from 'mobx-react'
-import SystemState from '../models/SystemState'
 import PropTypes from 'prop-types'
 import Overlay from './Overlay'
 import OverlayContent from './OverlayContent'
@@ -61,7 +60,7 @@ class ErrorOverlay extends React.Component {
 }
 
 ErrorOverlay.propTypes = {
-  systemState: PropTypes.instanceOf(SystemState).isRequired,
+  systemState: PropTypes.object.isRequired,
   onReportClicked: PropTypes.func
 }
 

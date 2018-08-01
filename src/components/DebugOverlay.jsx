@@ -1,7 +1,6 @@
 import React from 'react'
 import { observer } from 'mobx-react'
 import PropTypes from 'prop-types'
-import SystemState from '../models/SystemState'
 import Overlay from './Overlay'
 import ColorHeader from './ColorHeader'
 import OverlayContent from './OverlayContent'
@@ -36,7 +35,7 @@ class DebugOverlay extends React.Component {
 }
 
 DebugOverlay.propTypes = {
-  systemState: PropTypes.instanceOf(SystemState).isRequired
+  systemState: PropTypes.object.isRequired
 }
 
 export default DebugOverlay

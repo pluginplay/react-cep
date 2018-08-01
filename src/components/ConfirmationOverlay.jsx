@@ -1,5 +1,4 @@
 import React from 'react'
-import SystemState from '../models/SystemState'
 import PropTypes from 'prop-types'
 import Overlay from './Overlay'
 import OverlayContent from './OverlayContent'
@@ -35,7 +34,7 @@ class ConfirmationOverlay extends React.Component {
 }
 
 ConfirmationOverlay.propTypes = {
-  systemState: PropTypes.instanceOf(SystemState).isRequired
+  systemState: PropTypes.object.isRequired
 }
 
 export default ConfirmationOverlay

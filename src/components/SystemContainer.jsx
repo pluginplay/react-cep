@@ -4,7 +4,6 @@ import { ThemeProvider } from 'styled-components'
 import { observer } from 'mobx-react'
 import Flex from 'styled-flex-component'
 import PropTypes from 'prop-types'
-import SystemState from '../models/SystemState'
 import Panel from './Panel'
 import ProgressOverlay from './ProgressOverlay'
 import ErrorOverlay from './ErrorOverlay'
@@ -82,7 +81,7 @@ class SystemContainer extends React.Component {
 }
 
 SystemContainer.propTypes = {
-  systemState: PropTypes.instanceOf(SystemState).isRequired,
+  systemState: PropTypes.object.isRequired,
   filterErrorEvent: PropTypes.func,
   errorEvent: PropTypes.string.isRequired,
   theme: PropTypes.object.isRequired

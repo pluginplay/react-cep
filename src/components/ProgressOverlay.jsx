@@ -1,5 +1,4 @@
 import React from 'react'
-import SystemState from '../models/SystemState'
 import ProgressBar from './ProgressBar'
 import { observer } from 'mobx-react'
 import PropTypes from 'prop-types'
@@ -24,7 +23,7 @@ class ProgressOverlay extends React.Component {
 }
 
 ProgressOverlay.propTypes = {
-  systemState: PropTypes.instanceOf(SystemState)
+  systemState: PropTypes.object
 }
 
 export default ProgressOverlay
