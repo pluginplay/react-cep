@@ -1,4 +1,7 @@
 module.exports = {
+  options: {
+    output: '.'
+  },
   use: [
     '@neutrinojs/standardjs',
     '@neutrinojs/react-components',

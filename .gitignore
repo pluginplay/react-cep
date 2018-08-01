@@ -1,5 +1,8 @@
 .idea
-build
+/*.js
+/*.js.map
+!/.eslintrc.js
+!/.neutrinorc.js
 
 ### Node template
 # Logs
