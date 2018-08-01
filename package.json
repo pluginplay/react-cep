@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "build": "neutrino build",
-    "prepare": "npm run build",
     "start": "neutrino start",
     "lint": "neutrino lint",
     "test": "neutrino test"
