@@ -6,7 +6,7 @@ class Checkbox extends React.Component {
   render () {
     return (
       <div className={this.props.className}>
-        <input type="checkbox" {...omit(this.props, ['className'])} />
+        <input type={'checkbox'} {...omit(this.props, ['className'])} />
         <span />
       </div>
     )

@@ -57,7 +57,7 @@ class SystemContainer extends React.Component {
     if (this.props.filterErrorEvent && this.props.filterErrorEvent(error, event) === false) {
       return
     }
-    this.props.systemState.setErrorMessage(error.replace(/\\n/g, "\n"), event)
+    this.props.systemState.setErrorMessage(error.replace(/\\n/g, '\n'), event)
     if (this.props.systemState.debugModeEnabled) {
       this.props.systemState.showDebug()
     }

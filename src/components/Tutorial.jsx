@@ -59,7 +59,7 @@ class Tutorial extends React.Component {
     } else return null
   }
 
-  render() {
+  render () {
     return (
       <Flex full justifyCenter className={this.props.className}>
         <div className={'side image-side'}>

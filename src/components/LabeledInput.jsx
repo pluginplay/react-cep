@@ -6,8 +6,8 @@ class LabeledInput extends React.Component {
   render () {
     return (
       <label className={this.props.className}>
-        <span className="label">{this.props.label}</span>
-        <span className="input">{this.props.children}</span>
+        <span className={'label'}>{this.props.label}</span>
+        <span className={'input'}>{this.props.children}</span>
       </label>
     )
   }
