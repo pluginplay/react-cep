@@ -9,6 +9,7 @@ import ProgressOverlay from './ProgressOverlay'
 import ErrorOverlay from './ErrorOverlay'
 import DebugOverlay from './DebugOverlay'
 import ConfirmationOverlay from './ConfirmationOverlay'
+import SimpleMessageOverlay from './SimpleMessageOverlay'
 import { getDefaultTheme } from '../lib/theme'
 
 @observer
@@ -71,6 +72,7 @@ class SystemContainer extends React.Component {
           <ErrorOverlay systemState={this.props.systemState} />
           <ProgressOverlay systemState={this.props.systemState} />
           <ConfirmationOverlay systemState={this.props.systemState} />
+          <SimpleMessageOverlay systemState={this.props.systemState} />
           <Flex full column>
             {this.props.children}
           </Flex>

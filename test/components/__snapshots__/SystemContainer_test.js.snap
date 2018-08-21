@@ -107,6 +107,11 @@ exports[`renders properly 1`] = `
     </div>
   </div>
   <div
+    className="sc-bZQynM dDFXwA flex-bfOkaE iFImsY"
+  >
+    <p />
+  </div>
+  <div
     className="flex-citwDR dRlZol"
   >
     <p>

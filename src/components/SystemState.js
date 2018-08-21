@@ -14,6 +14,8 @@ export default class SystemState {
   @observable confirmationCallback = null
   @observable showConfirmationOverlay = false
   @observable debugModeEnabled = false
+  @observable simpleMessage = null
+  @observable simpleMessageVisible = false
 
   @action setProgress (progress, label, showProgress = true) {
     this.showProgressComplete = false
@@ -74,5 +76,17 @@ export default class SystemState {
     this.showConfirmationOverlay = false
     this.confirmationMessage = null
     this.confirmationCallback = null
+  }
+
+  @action setSimpleMessage (message, timeout = 2000) {
+    this.simpleMessage = message
+    this.simpleMessageVisible = true
+    setTimeout(() => {
+      this.hideSimpleMessage()
+    }, timeout)
+  }
+
+  @action hideSimpleMessage () {
+    this.simpleMessageVisible = false
   }
 }

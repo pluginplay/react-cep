@@ -39,6 +39,23 @@ describe('#progressComplete()', () => {
   })
 })
 
+describe('#setSimpleMessage()', () => {
+  beforeEach(() => {
+    jest.useFakeTimers()
+    systemState.setSimpleMessage('test message', 2001)
+  })
+  it('sets simpleMessage', () => { expect(systemState.simpleMessage).to.equal('test message') })
+  it('sets simpleMessageVisible', () => { expect(systemState.simpleMessageVisible).to.equal(true) })
+  it('waits and then hides the simple message', () => {
+    expect(setTimeout.mock.calls).to.have.length(1)
+    expect(setTimeout.mock.calls[0][0]).to.be.a('function')
+    expect(setTimeout.mock.calls[0][1]).to.equal(2001)
+    expect(systemState.simpleMessageVisible).to.equal(true)
+    jest.runAllTimers()
+    expect(systemState.simpleMessageVisible).to.equal(false)
+  })
+})
+
 describe('#hideProgress()', () => {
   beforeEach(() => {
     systemState.showProgress = true
