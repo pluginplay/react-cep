@@ -11,7 +11,8 @@
     "release": "standard-version -r"
   },
   "files": [
-    "assets/*"
+    "assets/*",
+    "*.js"
   ],
   "keywords": [
     "cep",
