@@ -39,6 +39,7 @@
     "chai-enzyme": "^1.0.0-beta.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "jest-junit": "^5.1.0",
     "localstorage-polyfill": "^1.0.1",
     "neutrino": "^8.3.0",
     "raf": "^3.4.0",
