@@ -7,12 +7,24 @@
     "build": "neutrino build",
     "start": "neutrino start",
     "lint": "neutrino lint",
-    "test": "neutrino test"
+    "test": "neutrino test",
+    "release": "standard-version -r"
   },
   "files": [
     "assets/*"
   ],
-  "keywords": [],
+  "keywords": [
+    "cep",
+    "adobe-cep-extension",
+    "extendscript",
+    "react",
+    "extendscript-extensions",
+    "adobe plugins",
+    "after effects",
+    "premiere pro",
+    "photoshop",
+    "indesign"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -33,6 +45,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1",
+    "standard-version": "^4.4.0",
     "styled-components": "^3.3.3"
   },
   "peerDependencies": {
