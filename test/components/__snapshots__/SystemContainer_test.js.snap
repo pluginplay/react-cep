@@ -1,15 +1,415 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders properly 1`] = `
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.c5 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: white;
+  font-family: "Adobe Clean","Segoe UI","San Francisco",sans-serif;
+  font-size: pt;
+  position: relative;
+}
+
+.c9 {
+  padding: 4px;
+  border-radius: 10px;
+  background: #e6e6e6;
+  margin: 10px auto;
+  max-width: 80%;
+  width: 100%;
+}
+
+.c10 {
+  background: #0078d7;
+  border-radius: 5px;
+  max-width: 100%;
+  height: 6px;
+  width: 0%;
+  -webkit-transition: width 0.5s ease-in-out,background 0.5s linear;
+  transition: width 0.5s ease-in-out,background 0.5s linear;
+  position: relative;
+  overflow: hidden;
+}
+
+.c10:before {
+  display: block;
+  content: ' ';
+  background: linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.35) 50%,rgba(255,255,255,0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  -webkit-animation: gdzmdV 2s ease-in-out infinite;
+  animation: gdzmdV 2s ease-in-out infinite;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-transition: opacity 0.25s linear,z-index 0s linear 0.25s;
+  transition: opacity 0.25s linear,z-index 0s linear 0.25s;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f2f2f2;
+  z-index: -1;
+  opacity: 0;
+}
+
+.c1 a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  opacity: 0.75;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.c1 a:hover {
+  opacity: 1;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: opacity 0.25s linear,z-index 0s linear 0.25s;
+  transition: opacity 0.25s linear,z-index 0s linear 0.25s;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f2f2f2;
+  z-index: -1;
+  opacity: 0;
+}
+
+.c8 a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  opacity: 0.75;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.c8 a:hover {
+  opacity: 1;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  background: #0078d7;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.c2 span {
+  margin: 0 auto;
+}
+
+.c2 a {
+  margin: 0 3px 0 auto;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  background: #eb093f;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.c7 span {
+  margin: 0 auto;
+}
+
+.c7 a {
+  margin: 0 3px 0 auto;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  background: #e6e6e6;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: monospace;
+  overflow: auto;
+  text-align: left;
+}
+
+.c6 .send-button {
+  background: #0078d7;
+  padding: 1px 2px;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.c12 {
+  padding: 4px 8px;
+  margin: 10px auto;
+  min-width: 100px;
+  font-family: "Adobe Clean","Segoe UI","San Francisco",sans-serif;
+  color: white;
+  background: #f2f2f2;
+  border: solid 1px #fff;
+  font-size: pt;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,-webkit-transform 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.c12:hover,
+.c12:focus,
+.c12:active {
+  border-color: #0078d7;
+  background: #e6e6e6;
+}
+
+.c12:active {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  background: #FFFFFF;
+}
+
+.c13 {
+  background: none;
+  -webkit-transition: opacity 0.25s linear,z-index 0s linear 0.25s;
+  transition: opacity 0.25s linear,z-index 0s linear 0.25s;
+}
+
+.c13 > p {
+  padding: 10px 15px;
+  background: #e6e6e6;
+  border: solid 1px #fff;
+  box-shadow: 0 0 3px #f2f2f2;
+  border-radius: 2px;
+}
+
 <div
-  className="sc-bdVaJa krZJab"
+  className="c0"
   id="panel"
 >
   <div
-    className="flex-bfOkaE hkmsqT"
+    className="c1"
   >
     <div
-      className="flex-hWOzxa dhjizw"
+      className="c2"
       color="blue"
     >
       <span>
@@ -23,22 +423,22 @@ exports[`renders properly 1`] = `
       </a>
     </div>
     <div
-      className="flex-hMftNG jwpRxe"
+      className="c3"
     >
       <p>
         Here is the debug information you asked for. Please send this to the plugin maintainers if they ask for it.
       </p>
       <div
-        className="sc-bxivhb vlxVE item-bUAMdM bMtFws"
+        className="c4 c5"
         onClick={[Function]}
       />
     </div>
   </div>
   <div
-    className="sc-ifAKCX GwhuV flex-bfOkaE hkmsqT"
+    className="c6 c1"
   >
     <div
-      className="flex-hWOzxa WtegK"
+      className="c7"
       color="red"
     >
       <span>
@@ -52,7 +452,7 @@ exports[`renders properly 1`] = `
       </a>
     </div>
     <div
-      className="flex-hMftNG jwpRxe"
+      className="c3"
     >
       <p>
         Looks like we've run into a problem. You could help the developers out and 
@@ -72,19 +472,19 @@ exports[`renders properly 1`] = `
         </a>
       </p>
       <div
-        className="sc-bxivhb vlxVE item-bUAMdM bMtFws"
+        className="c4 c5"
         onClick={[Function]}
       />
     </div>
   </div>
   <div
-    className="flex-bfOkaE iFImsY"
+    className="c8"
   >
     <div
-      className="sc-bwzfXH epCbel"
+      className="c9"
     >
       <div
-        className="sc-htpNat gfOafB"
+        className="c10"
       />
     </div>
     <span>
@@ -92,14 +492,14 @@ exports[`renders properly 1`] = `
     </span>
   </div>
   <div
-    className="flex-bfOkaE iFImsY"
+    className="c8"
   >
     <div
-      className="flex-hMftNG iHsMmk"
+      className="c11"
     >
       <div />
       <button
-        className="sc-EHOje kKMNsC"
+        className="c12"
         onClick={[Function]}
       >
         OK
@@ -107,12 +507,12 @@ exports[`renders properly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bZQynM dDFXwA flex-bfOkaE iFImsY"
+    className="c13 c8"
   >
     <p />
   </div>
   <div
-    className="flex-citwDR dRlZol"
+    className="c14"
   >
     <p>
       foobar

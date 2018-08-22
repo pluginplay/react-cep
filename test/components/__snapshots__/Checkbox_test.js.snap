@@ -1,8 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
+.c0 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  outline: none;
+}
+
+.c0 input[type=checkbox] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.c0 span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #191919;
+  border: solid 1px #404040;
+  -webkit-transition: border-color 0.1s ease-in-out;
+  transition: border-color 0.1s ease-in-out;
+}
+
+.c0 span:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+  background: #0078d7;
+}
+
+.c0:hover span,
+.c0 input[type=checkbox]:focus + span {
+  border-color: #595959;
+}
+
+.c0 input[type=checkbox]:checked + span:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c0 input[type=checkbox]:focus + span:before,
+.c0:hover span:before {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.c0:hover input[type=checkbox]:checked + span:before,
+.c0 input[type=checkbox]:focus:checked + span:before {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 <div
-  className="sc-bdVaJa cNLavf"
+  className="c0"
 >
   <input
     checked={false}

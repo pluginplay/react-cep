@@ -1,11 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
+.c1 {
+  padding: 4px 6px;
+  font-family: "Adobe Clean","Segoe UI","San Francisco",sans-serif;
+  color: white;
+  background: #191919;
+  border: solid 1px #404040;
+  font-size: 10pt;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out;
+  max-width: none;
+}
+
+.c1:hover {
+  border-color: #595959;
+}
+
+.c1:focus {
+  border-color: #0078d7;
+  background: #0c0c0c;
+}
+
+.c1::-webkit-inner-spin-button,
+.c1::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c0 {
+  border: solid 1px #404040;
+  background: #191919;
+}
+
+.c0 input {
+  border: none;
+  display: inline-block;
+}
+
+.c0 > span {
+  padding: 4px 6px 4px 0;
+  color: #595959;
+}
+
 <div
-  className="sc-bwzfXH kIkNow"
+  className="c0"
 >
   <input
-    className="sc-bdVaJa ccRYzW"
+    className="c1"
   />
   <span>
     %

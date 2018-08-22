@@ -1,8 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
+.c0 {
+  background: #262626;
+  color: white;
+  font-family: "Adobe Clean","Segoe UI","San Francisco",sans-serif;
+  font-size: 10pt;
+  position: relative;
+}
+
 <div
-  className="sc-bdVaJa bytmHV"
+  className="c0"
   id="panel"
 >
   <div>

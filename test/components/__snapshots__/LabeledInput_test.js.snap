@@ -1,8 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c0 > .label,
+.c0 > .input {
+  display: inline-block;
+}
+
+.c0 > .label {
+  margin-right: 5px;
+}
+
 <label
-  className="sc-bdVaJa jipGKx"
+  className="c0"
 >
   <span
     className="label"

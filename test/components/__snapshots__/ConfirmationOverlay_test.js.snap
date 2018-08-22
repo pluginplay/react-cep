@@ -1,17 +1,132 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders the proper HTML structure 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: opacity 0.25s linear,z-index 0s linear;
+  transition: opacity 0.25s linear,z-index 0s linear;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #191919;
+  z-index: 3;
+  opacity: 1;
+}
+
+.c0 a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  opacity: 0.75;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.c0 a:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.c2 {
+  padding: 4px 8px;
+  margin: 10px auto;
+  min-width: 100px;
+  font-family: "Adobe Clean","Segoe UI","San Francisco",sans-serif;
+  color: white;
+  background: #191919;
+  border: solid 1px #404040;
+  font-size: 10pt;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,-webkit-transform 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.c2:hover,
+.c2:focus,
+.c2:active {
+  border-color: #0078d7;
+  background: #0c0c0c;
+}
+
+.c2:active {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  background: #262626;
+}
+
 <div
-  className="flex-bfOkaE fdXOYB"
+  className="c0"
 >
   <div
-    className="flex-hMftNG iHsMmk"
+    className="c1"
   >
     <div>
       Hello world?
     </div>
     <button
-      className="sc-bdVaJa jOdvgS"
+      className="c2"
       onClick={[Function]}
     >
       OK
