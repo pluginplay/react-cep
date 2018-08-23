@@ -7,6 +7,7 @@ import SystemContainer from '../../src/components/SystemContainer'
 import { ThemeProvider } from 'styled-components'
 import { getDefaultTheme } from '../../src/lib/theme'
 import * as csInterface from 'cep-lib/csinterface'
+import ErrorOverlay from '../../src/components/ErrorOverlay'
 
 let showConfirmationSpy = null
 let setErrorMessageSpy = null
@@ -74,6 +75,13 @@ it('filters errors when they appear', () => {
   expect(setErrorMessageSpy.mock.calls[4][0]).to.equal('stackone')
   expect(setErrorMessageSpy.mock.calls[5][0]).to.equal('stacktwo')
   expect(setErrorMessageSpy.mock.calls.length).to.equal(6)
+})
+
+it('forwards the onReportClicked prop to ErrorOverlay', () => {
+  const callback = () => false
+  const wrapper = shallow(<SystemContainer systemState={systemState} errorEvent={'foo.error'}
+                                           onReportClicked={callback} />)
+  expect(wrapper.find(ErrorOverlay).first().prop('onReportClicked')).to.equal(callback)
 })
 
 it('hides progress when an error occurs', () => {

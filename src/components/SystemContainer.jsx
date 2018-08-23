@@ -69,7 +69,7 @@ class SystemContainer extends React.Component {
       <ThemeProvider theme={theme}>
         <Panel className={this.props.className}>
           <DebugOverlay systemState={this.props.systemState} />
-          <ErrorOverlay systemState={this.props.systemState} />
+          <ErrorOverlay systemState={this.props.systemState} onReportClicked={this.props.onReportClicked} />
           <ProgressOverlay systemState={this.props.systemState} />
           <ConfirmationOverlay systemState={this.props.systemState} />
           <SimpleMessageOverlay systemState={this.props.systemState} />
@@ -85,6 +85,7 @@ class SystemContainer extends React.Component {
 SystemContainer.propTypes = {
   systemState: PropTypes.object.isRequired,
   filterErrorEvent: PropTypes.func,
+  onReportClicked: PropTypes.func,
   errorEvent: PropTypes.string.isRequired,
   theme: PropTypes.object.isRequired
 }
