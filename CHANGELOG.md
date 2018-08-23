@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.3"></a>
+## [0.0.3](https://github.com/sammarks/react-cep/compare/v0.0.2...v0.0.3) (2018-08-23)
+
+
+### Features
+
+* Forward `onReportClicked` in SystemContainer. ([45a49ae](https://github.com/sammarks/react-cep/commit/45a49ae))
+
+
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/sammarks/react-cep/compare/v0.0.1...v0.0.2) (2018-08-22)
 

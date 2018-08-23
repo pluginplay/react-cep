@@ -1,6 +1,6 @@
 {
   "name": "react-cep",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React component library for Adobe CEP (Common Extensibility Platform) plugins.",
   "main": "index.js",
   "scripts": {
