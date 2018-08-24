@@ -34,7 +34,6 @@ class SystemContainer extends React.Component {
 
   onDebug (event) {
     this.props.systemState.addDebugMessage(event.data)
-    console.log(`[DEBUG] ${event.data}`)
   }
 
   onError (event) {
