@@ -18,6 +18,7 @@ class SystemContainer extends React.Component {
     super(props)
     const _onErrorBound = this.onError.bind(this)
     csInterface.addEventListener(props.errorEvent, _onErrorBound)
+    csInterface.addEventListener(props.debugEvent, this.onDebug.bind(this))
     window.addEventListener('unhandledrejection', _onErrorBound)
     window.addEventListener('error', _onErrorBound)
   }
@@ -26,6 +27,14 @@ class SystemContainer extends React.Component {
     if (nextProps.errorEvent !== this.props.errorEvent) {
       csInterface.addEventListener(nextProps.errorEvent, this.onError.bind(this))
     }
+    if (nextProps.debugEvent !== this.props.debugEvent) {
+      csInterface.addEventListener(nextProps.debugEvent, this.onDebug.bind(this))
+    }
+  }
+
+  onDebug (event) {
+    this.props.systemState.addDebugMessage(event.data)
+    console.log(`[DEBUG] ${event.data}`)
   }
 
   onError (event) {
@@ -87,6 +96,7 @@ SystemContainer.propTypes = {
   filterErrorEvent: PropTypes.func,
   onReportClicked: PropTypes.func,
   errorEvent: PropTypes.string.isRequired,
+  debugEvent: PropTypes.string.isRequired,
   theme: PropTypes.object.isRequired
 }
 
