@@ -6,12 +6,10 @@ module.exports = {
     '@neutrinojs/standardjs',
     ['@neutrinojs/react-components', {
       minify: {
-        babel: {
-          minify: {
-            keepClassName: true,
-            keepFnName: true
-          }
-        }
+        babel: false
+      },
+      targets: {
+        browsers: ['chrome 27']
       }
     }],
     (neutrino) => {
