@@ -18,10 +18,10 @@ LabeledInput.propTypes = {
 }
 
 export default styled(LabeledInput)`
-  display: inline-block;
-  vertical-align: middle;
-  > .label, > .input {
-    display: inline-block;
+  display: flex;
+  align-items: center;
+  > .input {
+    flex-grow: 1;
   }
   > .label {
     margin-right: 5px;
