@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Select from 'react-select'
+import 'react-select/dist/react-select.css'
 
 export default styled(Select)`
 &.Select.Select--single {
