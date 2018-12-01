@@ -34,6 +34,17 @@ exports[`renders correctly 1`] = `
 .c0 {
   border: solid 1px #404040;
   background: #191919;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out;
+}
+
+.c0.focused {
+  border-color: #0078d7;
+  background: #0c0c0c;
 }
 
 .c0 input {
@@ -47,10 +58,12 @@ exports[`renders correctly 1`] = `
 }
 
 <div
-  className="c0"
+  className="c0 "
 >
   <input
     className="c1"
+    onBlur={[Function]}
+    onFocus={[Function]}
   />
   <span>
     %
