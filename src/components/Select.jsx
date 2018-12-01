@@ -1,6 +1,25 @@
+import React from 'react'
 import styled from 'styled-components'
-import Select from 'react-select'
+import ReactSelect from 'react-select'
+import PropTypes from 'prop-types'
 import 'react-select/dist/react-select.css'
+
+class Select extends React.Component {
+  static propTypes = {
+    SelectComponent: PropTypes.func.isRequired
+  }
+
+  static defaultProps = {
+    SelectComponent: ReactSelect
+  }
+
+  render () {
+    const { SelectComponent } = this.props
+    return (
+      <SelectComponent {...this.props} />
+    )
+  }
+}
 
 export default styled(Select)`
 &.Select.Select--single {
