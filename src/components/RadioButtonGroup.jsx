@@ -35,7 +35,7 @@ export default styled(RadioButtonGroup)`
   button {
     border: none;
     &.selected {
-      background: ${props => props.theme.ae.systemHighlightColor};
+      background: ${props => props.theme.ae.systemHighlightColor} !important;
     }
   }
 `
