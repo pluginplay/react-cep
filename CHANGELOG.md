@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/sammarks/react-cep/compare/v0.0.6...v0.0.7) (2018-12-07)
+
+
+### Bug Fixes
+
+* LabeledInput styles to use flexbox instead of inline-block. ([220d985](https://github.com/sammarks/react-cep/commit/220d985))
+* react-select style fixes. ([0cdaebe](https://github.com/sammarks/react-cep/commit/0cdaebe))
+* SuffixInput styles. ([b892633](https://github.com/sammarks/react-cep/commit/b892633))
+
+
+### Features
+
+* Allow the use of Creatable with the same react-select styles. ([c469e07](https://github.com/sammarks/react-cep/commit/c469e07))
+* Disable styles for buttons. ([7e69544](https://github.com/sammarks/react-cep/commit/7e69544))
+* RadioButtonGroup ([14a2721](https://github.com/sammarks/react-cep/commit/14a2721))
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/sammarks/react-cep/compare/v0.0.5...v0.0.6) (2018-09-04)
 
