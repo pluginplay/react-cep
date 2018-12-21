@@ -363,9 +363,10 @@ exports[`renders properly 1`] = `
   font-size: pt;
   outline: none;
   box-sizing: border-box;
-  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,-webkit-transform 0.1s ease-in-out;
-  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out;
-  transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,-webkit-transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out,border-color 0.1s ease-in-out,transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+  opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -373,18 +374,23 @@ exports[`renders properly 1`] = `
   display: inline-block;
 }
 
-.c12:hover,
-.c12:focus,
-.c12:active {
+.c12:not(:disabled):hover,
+.c12:not(:disabled):focus,
+.c12:not(:disabled):active {
   border-color: #0078d7;
   background: #e6e6e6;
 }
 
-.c12:active {
+.c12:not(:disabled):active {
   -webkit-transform: scale(0.95);
   -ms-transform: scale(0.95);
   transform: scale(0.95);
   background: #FFFFFF;
+}
+
+.c12:disabled {
+  cursor: default;
+  opacity: 0.5;
 }
 
 .c13 {
