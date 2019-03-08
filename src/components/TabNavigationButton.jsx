@@ -24,4 +24,8 @@ export default styled.button`
     padding: 0;
     img { transform: scale(0.9); }
   }
+  @media (max-width: 320px) {
+    height: 20px;
+    img { width: 10px; }
+  }
 `

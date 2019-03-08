@@ -58,4 +58,7 @@ export default styled(TabNavigation)`
   margin: 0 0 0 auto;
   background: ${props => props.theme.background.dark};
   width: 35px;
+  @media (max-width: 320px) {
+    width: 20px;
+  }
 `

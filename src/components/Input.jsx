@@ -23,4 +23,8 @@ export default styled.input`
     -webkit-appearance: none;
     margin: 0;
   }
+  @media (max-width: 320px) {
+    padding: 2px 3px;
+    font-size: 8pt;
+  }
 `

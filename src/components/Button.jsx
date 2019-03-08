@@ -29,4 +29,9 @@ export default styled.button`
     cursor: default;
     opacity: 0.5;
   }
+  @media (max-width: 320px) {
+    padding: 3px 4px;
+    margin: 4px auto;
+    font-size: 8pt;
+  }
 `

@@ -60,5 +60,25 @@ export default styled(Select)`
       }
     }
   }
+  
+  @media (max-width: 320px) {
+    > .Select-control, &.is-open > .Select-control {
+      font-size: 8pt;
+      height: 23px;
+    }
+    .Select-placeholder, .Select-value { line-height: 20px; padding-left: 5px; padding-right: 15px; }
+    .Select-input { 
+      height: 20px; padding-left: 5px; padding-right: 15px;
+      > input { padding: 0; line-height: 20px; } 
+    }
+    .Select-arrow-zone { width: 10px; padding-top: 5px; }
+    &.is-open > .Select-menu-outer {
+      max-height: 70vh;
+      > .Select-menu {
+        max-height: 70vh;
+        > .Select-option { padding: 3px 5px; font-size: 8pt; }
+      }
+    }
+  }
 }
 `

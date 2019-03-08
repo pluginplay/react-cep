@@ -63,4 +63,7 @@ export default styled(TabContainer)`
     overflow-y: auto;
     position: relative;
   }
+  @media (max-width: 320) {
+    .content { padding: 3px; }
+  }
 `
