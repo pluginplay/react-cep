@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.9"></a>
+## [0.0.9](https://github.com/sammarks/react-cep/compare/v0.0.8...v0.0.9) (2019-03-08)
+
+
+### Features
+
+* Add proper sizes for tiny mode. ([ec5eaf5](https://github.com/sammarks/react-cep/commit/ec5eaf5))
+
+
+
 <a name="0.0.8"></a>
 ## [0.0.8](https://github.com/sammarks/react-cep/compare/v0.0.7...v0.0.8) (2018-12-21)
 
