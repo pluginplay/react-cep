@@ -407,6 +407,14 @@ exports[`renders properly 1`] = `
   border-radius: 2px;
 }
 
+@media (max-width:320px) {
+  .c12 {
+    padding: 3px 4px;
+    margin: 4px auto;
+    font-size: 8pt;
+  }
+}
+
 <div
   className="c0"
   id="panel"

@@ -57,6 +57,13 @@ exports[`renders correctly 1`] = `
   color: #595959;
 }
 
+@media (max-width:320px) {
+  .c1 {
+    padding: 2px 3px;
+    font-size: 8pt;
+  }
+}
+
 <div
   className="c0 "
 >

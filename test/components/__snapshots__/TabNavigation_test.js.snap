@@ -103,6 +103,32 @@ exports[`renders correctly 1`] = `
   width: 35px;
 }
 
+@media (max-width:320px) {
+  .c1 {
+    height: 20px;
+  }
+
+  .c1 img {
+    width: 10px;
+  }
+}
+
+@media (max-width:320px) {
+  .c2 {
+    height: 20px;
+  }
+
+  .c2 img {
+    width: 10px;
+  }
+}
+
+@media (max-width:320px) {
+  .c0 {
+    width: 20px;
+  }
+}
+
 <div
   className="c0"
 >

@@ -142,6 +142,38 @@ exports[`renders correctly 1`] = `
   position: relative;
 }
 
+@media (max-width:320px) {
+  .c3 {
+    height: 20px;
+  }
+
+  .c3 img {
+    width: 10px;
+  }
+}
+
+@media (max-width:320px) {
+  .c4 {
+    height: 20px;
+  }
+
+  .c4 img {
+    width: 10px;
+  }
+}
+
+@media (max-width:320px) {
+  .c2 {
+    width: 20px;
+  }
+}
+
+@media (max-width:320) {
+  .c0 .content {
+    padding: 3px;
+  }
+}
+
 <div
   className="c0 c1"
 >
