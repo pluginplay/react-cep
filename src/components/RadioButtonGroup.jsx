@@ -32,7 +32,9 @@ export default styled(RadioButtonGroup)`
   border: solid 1px ${props => props.theme.background.light};
   background: ${props => props.theme.background.dark};
   display: flex;
-  button {
+  > button {
+    margin: 0;
+    min-width: 0;
     border: none;
     &.selected {
       background: ${props => props.theme.ae.systemHighlightColor} !important;
