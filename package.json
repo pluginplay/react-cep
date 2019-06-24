@@ -8,7 +8,7 @@
     "start": "neutrino start",
     "lint": "neutrino lint",
     "test": "neutrino test",
-    "release": "standard-version -r"
+    "release": "standard-version"
   },
   "files": [
     "assets/*",
