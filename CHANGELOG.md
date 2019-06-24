@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/sammarks/react-cep/compare/v0.0.10...v0.1.0) (2019-06-24)
+
+
+### Features
+
+* add FilePathInput component ([940eb9c](https://github.com/sammarks/react-cep/commit/940eb9c))
+* add IconButton component ([94fd10e](https://github.com/sammarks/react-cep/commit/94fd10e))
+
+
+
 <a name="0.0.10"></a>
 ## [0.0.10](https://github.com/sammarks/react-cep/compare/v0.0.9...v0.0.10) (2019-03-08)
 
