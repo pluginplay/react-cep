@@ -5,6 +5,10 @@ import PropTypes from 'prop-types'
 import omit from 'lodash/omit'
 
 class SuffixInput extends React.Component {
+  static propTypes = {
+    suffix: PropTypes.element.isRequired
+  }
+
   constructor (props) {
     super(props)
     this.state = {
@@ -30,10 +34,6 @@ class SuffixInput extends React.Component {
   }
 }
 
-SuffixInput.propTypes = {
-  suffix: PropTypes.string.isRequired
-}
-
 export default styled(SuffixInput)`
   border: solid 1px ${props => props.theme.background.light};
   background: ${props => props.theme.background.dark};
@@ -48,7 +48,7 @@ export default styled(SuffixInput)`
     display: inline-block;
   }
   > span {
-    padding: 4px 6px 4px 0;
+    padding: ${props => props.suffixPadding || '4px 6px 4px 0'};
     color: ${props => props.theme.background.lighter};
   }
 `

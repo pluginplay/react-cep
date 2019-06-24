@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="30px" viewBox="0 0 120 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon/wait</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="filled/wait" transform="translate(-68.000000, -113.000000)" fill="#FFFFFF">
+            <path d="M83,143 C74.7157288,143 68,136.284271 68,128 C68,119.715729 74.7157288,113 83,113 C91.2842712,113 98,119.715729 98,128 C98,136.284271 91.2842712,143 83,143 Z M128,143 C119.715729,143 113,136.284271 113,128 C113,119.715729 119.715729,113 128,113 C136.284271,113 143,119.715729 143,128 C143,136.284271 136.284271,143 128,143 Z M173,143 C164.715729,143 158,136.284271 158,128 C158,119.715729 164.715729,113 173,113 C181.284271,113 188,119.715729 188,128 C188,136.284271 181.284271,143 173,143 Z" id="icon/wait"></path>
+        </g>
+    </g>
+</svg>
