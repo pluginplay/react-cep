@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/sammarks/react-cep/compare/v0.1.0...v0.1.1) (2019-08-30)
+
+
+### Bug Fixes
+
+* update peer dependency versions ([344e9e1](https://github.com/sammarks/react-cep/commit/344e9e1))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/sammarks/react-cep/compare/v0.0.10...v0.1.0) (2019-06-24)
 
